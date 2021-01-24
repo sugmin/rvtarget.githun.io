@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>리모트 뷰잉 타겟 서비스</title>
+</head>
+<body>
+<br><br><br>
+
+<h2><font color = "blue"><center>아래 버튼을 누르면 타겟 번호가 생성 됩니다.</font></h2>
+<center><input type="text" id="jari" value="">
+<input type="button" id="trn" name="btn1" 
+value="타겟 번호 생성" onclick="ranNum();">
+<br><br>
+<input type="button" value="결과 확인하기" onclick = "location.href='https://source.unsplash.com/random'">
+<input type="reset">
+</center>
+
+<script type="text/javascript">
+function ranNum(){
+// document.write(Math.random(8,0));
+// document.write(jari(Math.floor(Math.random()*100000000)));
+jari.value = "TRN" + Math.floor(Math.random()*100000000 + 1);
+}
+function ranImg(){
+	
+}
+
+//https://source.unsplash.com/random
+</script>
+</body>
+</html>
+
